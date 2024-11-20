@@ -3,6 +3,10 @@ export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         extend: {},
+        fontFamily: {
+            youngSerif: ["Young Serif", "serif"],
+            outfit: ["Outfit", "serif"],
+        },
     },
     plugins: [],
 };

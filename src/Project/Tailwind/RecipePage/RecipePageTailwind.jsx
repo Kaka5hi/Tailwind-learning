@@ -96,7 +96,7 @@ const RecipePageTailwind = () => {
             <div className=" pb-8 box-border md:bg-white md:max-w-3xl md:mx-auto md:rounded-3xl md:overflow-hidden md:p-10">
                 <div className="h-full max-h-80 overflow-hidden md:rounded-2xl ">
                     <img
-                        src={data?.image}
+                        src="omelette.jpeg"
                         alt={data?.title}
                         className="object-cover"
                     />
