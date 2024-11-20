@@ -86,6 +86,7 @@ const data = {
 };
 
 const RecipePageTailwind = () => {
+    // font link
     // <link rel="preconnect" href="https://fonts.googleapis.com">
     // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     // <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
@@ -102,15 +103,15 @@ const RecipePageTailwind = () => {
                 </div>
                 <div className="mx-8 flex flex-col gap-8 md:mx-0">
                     <div className="mt-8">
-                        <h1 className="capitalize font-serif text-stone-900 text-4xl font-bold">
+                        <h1 className="capitalize font-youngSerif text-stone-800 text-4xl font-medium">
                             {data?.title}
                         </h1>
-                        <p className="pt-5  text-stone-600">
+                        <p className="pt-5  text-stone-500 font-outfit">
                             {data?.description}
                         </p>
                     </div>
-                    <div className=" p-6 bg-fuchsia-50 border rounded-lg border-transparent">
-                        <h1 className="capitalize text-fuchsia-900 text-xl font-semibold">
+                    <div className=" p-6 bg-fuchsia-50 border font-outfit rounded-lg border-transparent">
+                        <h1 className="capitalize text-fuchsia-900 text-xl font-semibold ">
                             {data?.prep?.title}
                         </h1>
                         <ol className=" flex flex-col gap-2 list-disc list-inside mt-4 mx-2 text-stone-600 marker:text-fuchsia-950 marker:text-sm">
@@ -128,10 +129,10 @@ const RecipePageTailwind = () => {
                     </div>
                     {/* ingredient container */}
                     <div className=" ">
-                        <h1 className="text-amber-800 font-semibold font-serif text-3xl capitalize">
+                        <h1 className="text-amber-800 font-medium font-youngSerif text-3xl capitalize">
                             {data?.ingredient.title}
                         </h1>
-                        <ol className="flex flex-col gap-2.5 border-b border-stone-300 pt-4 pb-8 px-1 list-disc list-outside text-stone-600 marker:text-sm ">
+                        <ol className="flex flex-col gap-2.5 border-b border-stone-300 pt-4 pb-8 px-1 font-outfit list-disc list-outside text-stone-600 marker:text-sm ">
                             {data?.ingredient?.list?.map((item, index) => {
                                 return (
                                     <li className="ml-5 " key={index}>
@@ -145,10 +146,10 @@ const RecipePageTailwind = () => {
                     </div>
                     {/* instructions container */}
                     <div className=" ">
-                        <h1 className="text-amber-800 font-semibold font-serif text-3xl capitalize">
+                        <h1 className="text-amber-800 font-medium font-youngSerif  text-3xl capitalize">
                             {data?.instruction.title}
                         </h1>
-                        <ol className="flex flex-col gap-2.5 border-b border-stone-300 pt-4 pb-8 px-1 list-decimal list-outside text-stone-800 marker:text-base marker:font-bold marker:text-amber-800 ">
+                        <ol className="flex flex-col gap-2.5 border-b border-stone-300 pt-4 pb-8 px-1 list-decimal list-outside font-outfit text-stone-800 marker:text-base marker:font-bold marker:text-amber-800 ">
                             {data?.instruction?.list?.map((item, index) => {
                                 return (
                                     <li className="ml-5 " key={index}>
@@ -164,8 +165,8 @@ const RecipePageTailwind = () => {
                         </ol>
                     </div>
                     {/* nutrition container */}
-                    <div className=" ">
-                        <h1 className="text-amber-800 font-semibold font-serif text-3xl capitalize">
+                    <div className="font-outfit">
+                        <h1 className="text-amber-800 font-medium font-youngSerif text-3xl capitalize">
                             {data?.nutrition?.title}
                         </h1>
                         <p className="my-4 text-stone-600">
@@ -180,14 +181,14 @@ const RecipePageTailwind = () => {
                                             data?.nutrition?.tableData
                                                 ?.length !==
                                             index + 1
-                                                ? "flex items-center border-b border-stone-300 p-4"
-                                                : "flex items-center pt-4 px-4"
+                                                ? "flex items-center border-b border-stone-300 px-8 py-4  "
+                                                : "flex items-center pt-4 px-8 "
                                         }
                                     >
-                                        <span className="flex-1 text-center capitalize">
+                                        <span className="flex-1 capitalize">
                                             {item?.key}
                                         </span>
-                                        <span className="flex-1 text-center text-amber-800 font-bold">
+                                        <span className="flex-1 text-amber-800 font-bold">
                                             {item?.value}
                                         </span>
                                     </li>
