@@ -1,9 +1,9 @@
-import RecipePageTailwind from "./Project/Tailwind/RecipePage/RecipePageTailwind";
+import SocialLinkProfile from "./Project/Basic/SocialLinkProfile/SocialLinkProfile";
 
 const App = () => {
     return (
         <div>
-            <RecipePageTailwind />
+            <SocialLinkProfile />
         </div>
     );
 };
