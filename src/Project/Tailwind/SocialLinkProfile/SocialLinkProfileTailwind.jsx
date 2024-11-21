@@ -7,7 +7,7 @@ const SocialLinkProfileTailwind = () => {
         <div className="bg-neutral-900 flex items-center justify-center min-h-screen p-5">
             <div className="bg-neutral-800 p-9 rounded-lg flex items-center justify-center flex-col text-center font-inter text-white max-w-96 w-full">
                 <img
-                    className="w-20 h-20 object-contain rounded-full"
+                    className="w-24 h-2w-24 object-contain rounded-full"
                     src="avatar-jessica.jpeg"
                     alt=""
                 />
