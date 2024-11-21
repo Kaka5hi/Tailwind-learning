@@ -1,9 +1,9 @@
-import SocialLinkProfile from "./Project/Basic/SocialLinkProfile/SocialLinkProfile";
+import SocialLinkProfileTailwind from "./Project/Tailwind/SocialLinkProfile/SocialLinkProfileTailwind";
 
 const App = () => {
     return (
         <div>
-            <SocialLinkProfile />
+            <SocialLinkProfileTailwind />
         </div>
     );
 };
