@@ -1,9 +1,9 @@
-import BlogCard from "./Project/Basic/BlogCard/BlogCard";
+import BlogCardTailwind from "./Project/Tailwind/BlogCard/BlogCardTailwind";
 
 const App = () => {
     return (
         <div>
-            <BlogCard />
+            <BlogCardTailwind />
         </div>
     );
 };
