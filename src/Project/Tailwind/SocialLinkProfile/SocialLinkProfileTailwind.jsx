@@ -22,7 +22,7 @@ const SocialLinkProfileTailwind = () => {
                         "Front-end developer and avid reader."
                     </span>
                 </div>
-                <ul className="flex flex-col items-center justify-center gap-3.5 capitalize w-full text-sm font-semibold">
+                <ul className="flex flex-col items-center justify-center gap-4 capitalize w-full text-sm font-semibold">
                     <li className="py-3 rounded-md bg-neutral-700 w-full hover:bg-lime-400 hover:text-black hover:cursor-pointer">
                         github
                     </li>

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* font-family: "Figtree", sans-serif; */
+
+.body_container {
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Figtree", sans-serif;
+    padding: 10px;
+}
+
+.content_container {
+    max-width: 340px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 6px 6px black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content_container > img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_container > span:nth-child(1) {
+    text-transform: capitalize;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    max-width: fit-content;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+
+.info_container > span:nth-child(2) {
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+}
+
+.info_container > span:nth-child(3) {
+    margin-top: 10px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    font-size: 1.25rem;
+    transition: all ease-out 300ms;
+}
+
+.info_container > span:nth-child(3):hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+    transition: all ease-out 300ms;
+}
+
+.info_container > span:nth-child(4) {
+    margin-top: 10px;
+    color: hsl(0, 0%, 42%);
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+
+.info_container > span:nth-child(4)::first-letter {
+    text-transform: capitalize;
+}
+
+.user_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+
+.user_container > img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}

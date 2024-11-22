@@ -1,9 +1,9 @@
-import SocialLinkProfileTailwind from "./Project/Tailwind/SocialLinkProfile/SocialLinkProfileTailwind";
+import BlogCard from "./Project/Basic/BlogCard/BlogCard";
 
 const App = () => {
     return (
         <div>
-            <SocialLinkProfileTailwind />
+            <BlogCard />
         </div>
     );
 };
