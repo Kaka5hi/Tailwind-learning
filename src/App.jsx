@@ -1,9 +1,9 @@
-import FaqAccordion from "./Project/Basic/FaqAccordion/FaqAccordion";
+import FaqAccordionTailwind from "./Project/Tailwind/FaqAccordion/FaqAccordionTailwind";
 
 const App = () => {
     return (
         <div>
-            <FaqAccordion />
+            <FaqAccordionTailwind />
         </div>
     );
 };

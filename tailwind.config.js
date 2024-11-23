@@ -12,6 +12,7 @@ export default {
             outfit: ["Outfit", "serif"],
             inter: ["Inter", "serif"],
             figtree: ["Figtree", "serif"],
+            wordSans: ["Work Sans", "sans-serif"],
         },
     },
     plugins: [],

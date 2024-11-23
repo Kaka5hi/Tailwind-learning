@@ -88,8 +88,9 @@
     object-fit: cover;
 }
 
-.questions_container li > p img:hover {
+.questions_container li > p:hover {
     cursor: pointer;
+    color: rgb(173 40 235);
 }
 
 .questions_container li span {
