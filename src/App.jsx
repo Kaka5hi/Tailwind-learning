@@ -1,9 +1,9 @@
-import BlogCardTailwind from "./Project/Tailwind/BlogCard/BlogCardTailwind";
+import FaqAccordion from "./Project/Basic/FaqAccordion/FaqAccordion";
 
 const App = () => {
     return (
         <div>
-            <BlogCardTailwind />
+            <FaqAccordion />
         </div>
     );
 };

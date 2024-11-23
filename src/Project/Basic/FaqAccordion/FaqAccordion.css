@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.faq_body_container {
+    background-color: hsl(275, 100%, 97%);
+    min-height: 100vh;
+    min-width: 100%;
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+}
+
+.banner_container {
+    position: absolute;
+    background-image: url(background-pattern-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}
+
+.faq_content_container {
+    background-color: white;
+    padding: 40px 40px 20px 40px;
+    max-width: 550px;
+    width: 100%;
+    border-radius: 15px;
+    z-index: 2;
+    box-shadow: 4px 4px 18px 7px #b462d81a;
+}
+
+.faq_content_container > h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: hsl(292, 42%, 14%);
+}
+
+.faq_content_container > h1 img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.questions_container {
+    font-size: 0.95rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.questions_container li {
+    border-bottom: 1px solid hsl(0, 16%, 92%);
+    font-size: 14px;
+}
+
+.questions_container li:last-child {
+    border-bottom: none;
+}
+
+.questions_container li > p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 0;
+    color: hsl(292, 42%, 14%);
+    font-weight: 600;
+}
+
+.questions_container li > p img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.questions_container li > p img:hover {
+    cursor: pointer;
+}
+
+.questions_container li span {
+    display: block;
+    padding-bottom: 20px;
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner_container {
+        background-image: url(background-pattern-mobile.svg);
+    }
+}

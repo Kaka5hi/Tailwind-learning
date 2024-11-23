@@ -22,7 +22,7 @@ const BlogCardTailwind = () => {
                         HTML & CSS foundations
                     </span>
                     <span className="mt-2 text-sm text-neutral-500 first-letter:capitalize font-medium">
-                        these language are the backbone of every website,
+                        these languages are the backbone of every website,
                         defining structure, content and presentation.
                     </span>
                 </div>
