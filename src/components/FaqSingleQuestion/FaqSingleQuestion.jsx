@@ -9,7 +9,7 @@ const FaqSingleQuestion = ({ item, handleToggleAnswer, data, type }) => {
                 }
             >
                 <p
-                    className="flex items-center justify-between gap-10 font-semibold text-base hover:cursor-pointer hover:text-fuchsia-700"
+                    className="flex items-center justify-between gap-10 font-semibold text-fuchsia-950 text-base hover:cursor-pointer hover:text-fuchsia-700"
                     onClick={() => handleToggleAnswer(item.id)}
                 >
                     {item.question}

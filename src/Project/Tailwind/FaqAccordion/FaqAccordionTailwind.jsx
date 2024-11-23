@@ -51,8 +51,13 @@ const FaqAccordionTailwind = () => {
     };
 
     return (
-        <div className="font-wordSans bg-fuchsia-50 max-w-full min-h-screen flex items-center justify-center p-2.5 bg-[url(background-pattern-desktop.svg)] bg-auto bg-no-repeat bg-top">
-            <div className="bg-white px-10 pt-10 max-w-xl w-full rounded-2xl shadow-lg mt-20">
+        <div className="font-wordSans bg-fuchsia-50 max-w-full min-h-screen flex flex-col relative items-center justify-center p-2.5">
+            <img
+                className="absolute top-0 z-0 w-full h-72 object-cover"
+                src="background-pattern-desktop.svg"
+                alt="banner image"
+            />
+            <div className="bg-white px-10 pt-10 max-w-xl w-full rounded-2xl shadow-lg mt-20 z-10">
                 <h1 className="flex items-center text-5xl gap-5 font-semibold text-fuchsia-950">
                     <img
                         src="icon-star.svg"
