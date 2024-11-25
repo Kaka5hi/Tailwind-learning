@@ -5,7 +5,7 @@ const sample = [
     {
         question: "What is Frontend Mentor, and how will it help me?",
         answer: "Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.",
-        isOpen: false,
+        isOpen: true,
         id: 1,
     },
     {
@@ -53,7 +53,7 @@ const FaqAccordionTailwind = () => {
     return (
         <div className="font-wordSans bg-fuchsia-50 max-w-full min-h-screen flex flex-col relative items-center justify-center p-2.5">
             <img
-                className="absolute top-0 z-0 w-full h-72 object-cover"
+                className="absolute top-0 z-0 w-full h-80 object-cover"
                 src="background-pattern-desktop.svg"
                 alt="banner image"
             />

@@ -13,6 +13,7 @@ export default {
             inter: ["Inter", "serif"],
             figtree: ["Figtree", "serif"],
             wordSans: ["Work Sans", "sans-serif"],
+            hankenGrotesk: ["Hanken Grotesk", "sans-serif"],
         },
     },
     plugins: [],

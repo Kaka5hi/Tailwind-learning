@@ -1,9 +1,9 @@
-import FaqAccordionTailwind from "./Project/Tailwind/FaqAccordion/FaqAccordionTailwind";
+import ResultSummaryTailwind from "./Project/Tailwind/ResultSummary/ResultSummaryTailwind";
 
 const App = () => {
     return (
         <div>
-            <FaqAccordionTailwind />
+            <ResultSummaryTailwind />
         </div>
     );
 };
