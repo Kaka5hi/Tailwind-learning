@@ -1,9 +1,9 @@
-import ResultSummaryTailwind from "./Project/Tailwind/ResultSummary/ResultSummaryTailwind";
+import ProductPreviewCard from "./Project/Tailwind/ProductPreviewCard/ProductPreviewCard";
 
 const App = () => {
     return (
         <div>
-            <ResultSummaryTailwind />
+            <ProductPreviewCard />
         </div>
     );
 };

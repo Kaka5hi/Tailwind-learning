@@ -1,28 +1,5 @@
 import React from "react";
 
-const data = [
-    {
-        title: "reaction",
-        color: "red",
-        value: 80,
-    },
-    {
-        title: "memory",
-        color: "yellow",
-        value: 92,
-    },
-    {
-        title: "verbal",
-        color: "green",
-        value: 61,
-    },
-    {
-        title: "visual",
-        color: "blue",
-        value: 72,
-    },
-];
-
 const ResultSummaryTailwind = () => {
     // 	<link rel="preconnect" href="https://fonts.googleapis.com">
     // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,30 +29,54 @@ const ResultSummaryTailwind = () => {
                         summary
                     </h3>
                     <ul className="flex flex-col gap-3.5 md:gap-2.5">
-                        {data?.map((listitem) => {
-                            return (
-                                <li
-                                    key={listitem.title}
-                                    className={`flex items-center justify-between p-3 capitalize  rounded-lg bg-${listitem.color}-50 text-${listitem.color}-400`}
-                                >
-                                    <p className="flex items-center gap-4">
-                                        <img
-                                            src={`icon-${listitem.title}.svg`}
-                                            alt="reaction"
-                                        />
-                                        <span className="font-semibold">
-                                            {listitem.title}
-                                        </span>
-                                    </p>
-                                    <p className="text-slate-400 font-bold">
-                                        <span className="font-bold text-blue-950 mr-2">
-                                            {listitem.value}
-                                        </span>
-                                        /<span className="ml-1">100</span>
-                                    </p>
-                                </li>
-                            );
-                        })}
+                        <li className="flex items-center justify-between p-3 capitalize  rounded-lg bg-red-50 text-red-400">
+                            <p className="flex items-center gap-4">
+                                <img src="icon-reaction.svg" alt="reaction" />
+                                <span className="font-semibold">reaction</span>
+                            </p>
+                            <p className="text-slate-400 font-bold">
+                                <span className="font-bold text-blue-950 mr-2">
+                                    80
+                                </span>
+                                /<span className="ml-1">100</span>
+                            </p>
+                        </li>
+                        <li className="flex items-center justify-between p-3 capitalize   bg-yellow-50 text-yellow-400">
+                            <p className="flex items-center gap-4">
+                                <img src="icon-memory.svg" alt="memory" />
+                                <span className="font-semibold">memory</span>
+                            </p>
+                            <p className="text-slate-400 font-bold">
+                                <span className="font-bold text-blue-950 mr-2">
+                                    92
+                                </span>
+                                /<span className="ml-1">100</span>
+                            </p>
+                        </li>
+                        <li className="flex items-center justify-between p-3 capitalize   bg-green-50 text-green-400">
+                            <p className="flex items-center gap-4">
+                                <img src="icon-verbal.svg" alt="verbal" />
+                                <span className="font-semibold">verbal</span>
+                            </p>
+                            <p className="text-slate-400 font-bold">
+                                <span className="font-bold text-blue-950 mr-2">
+                                    61
+                                </span>
+                                /<span className="ml-1">100</span>
+                            </p>
+                        </li>
+                        <li className="flex items-center justify-between p-3 capitalize   bg-blue-50 text-blue-400">
+                            <p className="flex items-center gap-4">
+                                <img src="icon-visual.svg" alt="visual" />
+                                <span className="font-semibold">visual</span>
+                            </p>
+                            <p className="text-slate-400 font-bold">
+                                <span className="font-bold text-blue-950 mr-2">
+                                    72
+                                </span>
+                                /<span className="ml-1">100</span>
+                            </p>
+                        </li>
                     </ul>
                     <button
                         className="w-full rounded-full bg-blue-950 text-slate-200 p-4 capitalize font-semibold text-lg hover:cursor-pointer hover:bg-gradient-to-b from-indigo-500 to-blue-700 hover:text-slate-50 md:px-2

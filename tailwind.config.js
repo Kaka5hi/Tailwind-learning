@@ -14,6 +14,8 @@ export default {
             figtree: ["Figtree", "serif"],
             wordSans: ["Work Sans", "sans-serif"],
             hankenGrotesk: ["Hanken Grotesk", "sans-serif"],
+            montserrat: ["Montserrat", "sans-serif"],
+            fraunces: ["Fraunces", "serif"],
         },
     },
     plugins: [],
