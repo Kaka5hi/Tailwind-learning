@@ -1,9 +1,9 @@
-import ProductPreviewCard from "./Project/Tailwind/ProductPreviewCard/ProductPreviewCard";
+import RatingCard from "./Project/Tailwind/RatingCard/RatingCard";
 
 const App = () => {
     return (
         <div>
-            <ProductPreviewCard />
+            <RatingCard />
         </div>
     );
 };

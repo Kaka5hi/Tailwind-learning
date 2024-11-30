@@ -16,6 +16,7 @@ export default {
             hankenGrotesk: ["Hanken Grotesk", "sans-serif"],
             montserrat: ["Montserrat", "sans-serif"],
             fraunces: ["Fraunces", "serif"],
+            overpass: ["Overpass", "sans-serif"],
         },
     },
     plugins: [],
